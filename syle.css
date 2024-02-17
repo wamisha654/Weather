@@ -1,0 +1,90 @@
+body{
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	height: 100vh;
+	align-items: center;
+	background: linear-gradient(to bottom, #89CFF0, #0072B5);
+	/*background-image: url("https://cdn.wallpapersafari.com/43/42/IwWBH3.jpg");
+    background-size: cover;*/
+    color: white;
+
+}
+h1{
+	font-family: "Goudy Bookletter 1911", sans-serif;
+
+
+}
+.det{
+	display: flex;
+	align-items: center;
+	text-align: left;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+	font-size: 17px;
+
+}
+.container{
+	
+	background: linear-gradient(to bottom, #89CFF0, #0072B5);
+	text-align: center;
+	width: 90%;
+	max-width: 470px;
+	margin: 100px auto 0;
+	border-radius: 20px;
+	padding: 40px 35px;
+
+}
+.bin{
+	display: flex;
+	justify-content: space-between;
+	
+	align-items: center;
+	padding: 0 20px;
+	margin-top: 50px;
+
+}
+
+#weatherInfo h2{
+	font-size: 45px;
+	font-weight: 400;
+	margin-top: -10px;
+}
+#weatherInfo h1{
+	font-size: 80px;
+	font-weight: 500;
+	
+}
+input{
+	padding: 5px;
+	padding-right: 5px;
+}
+button{
+	
+	cursor: pointer;
+	border:0;
+	outline: 0;
+	background: #ebfffc;
+	color: #555;
+	padding: 10px 25px;
+	height: 50px;
+	border-radius: 30px;
+	flex:1;
+	margin-right: 16px;
+	font-size: 18px;
+}
+#cityInput{
+
+	border:0;
+	outline: 0;
+	background: #ebfffc;
+	color: #555;
+	padding: 10px 25px;
+	height: 30px;
+	border-radius: 30px;
+	flex:1;
+	margin-right: 16px;
+	font-size: 18px;
+}
+#weatherInfo{
+ display: none;
+}
